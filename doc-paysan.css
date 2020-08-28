@@ -1,0 +1,36 @@
+body{
+    color : rgb(255, 253, 253);
+    font-family: Arial, Helvetica, sans serif;
+ 	font-size: 11px;
+    font-weight:normal;
+    width: 90%; 
+    margin: center;
+    text-align: center;
+}
+
+.Ol{
+    text-align: left;
+    
+}
+
+#G{
+    background-image:url(This.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background: radial-gradient(rgb(131, 231, 239), rgb(58, 42, 80));
+
+    
+
+}
+
+.B{
+    color:rgb(241, 15, 166);
+}
+
+.M{
+    color:#67f807;
+}
+
+.L{
+    color:blue;
+}
