@@ -1,6 +1,6 @@
 body{
     color : rgb(255, 253, 253);
-    font-family: Arial, Helvetica, sans serif;
+    font-family: 'Lobster', cursive;
  	font-size: 11px;
     font-weight:normal;
     width: 90%; 
@@ -12,9 +12,41 @@ body{
     
 }
 
+nav ul{
+    padding :0px;
+    margin :0px;
+    list-style-type: none;
+    background-color: rgb(124, 96, 247);
+    border-radius: 10px;
+    
+    
+    
+}
+
+nav li{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin: 0px;
+    padding :0px;
+    border-right: 1px solid rgb(236, 235, 243);
+    text-align: center;
+    line-height: 40px;
+
+}
+
+nav li :hover{
+    background-color: rgb(140, 0, 255);
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
 .OL{
     text-align: left;
-    font-size: 15px;
+    font-size: 10px;
     
 }
 
@@ -22,8 +54,7 @@ body{
     width: 70px;
     height: 70px;
     margin-right: 2500px;
-}    
-    
+} 
 
 .B{
     color:rgb(15, 241, 15);
@@ -48,3 +79,5 @@ body{
 a :hover{
     background-color: rgb(11, 247, 207);
 }
+
+
