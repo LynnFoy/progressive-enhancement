@@ -1,13 +1,13 @@
 body{
     color : rgb(255, 253, 253);
     font-family: 'Lobster', cursive;
- 	font-size: 11px;
+ 	font-size: 13px;
     font-weight:normal;
     width: 90%; 
     margin: center;
     text-align: center;
     background-position: center;
-    background: radial-gradient(rgb(131, 231, 239), rgb(58, 42, 80));
+    background: radial-gradient(rgb(112, 193, 199), rgb(151, 126, 185));
     
     
 }
@@ -16,7 +16,7 @@ nav ul{
     padding :0px;
     margin :0px;
     list-style-type: none;
-    background-color: rgb(124, 96, 247);
+    background-color: rgb(86, 95, 221);
     border-radius: 10px;
     
     
@@ -46,22 +46,41 @@ nav li a {
 }
 .OL{
     text-align: left;
-    font-size: 10px;
+    font-size: 12px;
+    padding : 15px;
+   
+}
+
+.PB{
+    width: 2%;
+    
+    
+}
+
+.Feu{
+    height: 500px;
+    
+}
+
+.Alex{
+    text-align: center;
     
 }
 
 .Th{
-    width: 70px;
-    height: 70px;
-    margin-right: 2500px;
+    float: right;
+    margin: 0 0 0 0;
+    height: 90px;
+    border: solid rgba(255, 0, 140, 0.589);
+    
 } 
 
 .B{
-    color:rgb(15, 241, 15);
+    color:rgb(26, 97, 42);
 }
 
 .M{
-    color:#ec1111;
+    color:#ac2e2e;
 }
 
 .L{
@@ -69,15 +88,19 @@ nav li a {
 }
 
 .Cit{
-    border:2px solid rgb(114, 114, 114);
-    background-color: rgb(185, 185, 185);
+    border:3px solid rgb(114, 114, 114);
+    background-color: rgb(143, 140, 140);
     border-radius: 20px;
+}
+
+.Tab{
     
-    
+	margin: auto;
+    border-color: 3px solid grey;
+    background-color: blueviolet;
 }
 
 a :hover{
     background-color: rgb(11, 247, 207);
 }
-
 
